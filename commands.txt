@@ -1,0 +1,9 @@
+sudo apt install screen -y #👉 This installs the screen package if it's not already installed.
+screen -S loadtest #👉 This creates a new screen session named "loadtest".
+python3 load-test.py  #👉 This runs the load test and redirects the output to a file named "results.txt".
+Ctrl + A, then D #👉 This detaches the screen and keeps it running in background.
+
+
+screen -r loadtest #👉 This reattaches the screen.
+Ctrl + C #👉 This stops the process.
+exit #👉 To stop and exit:
