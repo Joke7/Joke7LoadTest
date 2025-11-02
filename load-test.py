@@ -7,7 +7,7 @@ import concurrent.futures
 from datetime import datetime
 
 # Configuration
-CSV_FILE = 'users_export_2025-11-01.csv'
+CSV_FILE = 'users-export.csv'
 MAX_WORKERS = 10  # Number of parallel threads
 BASE_URL = 'https://jock7-api.promosport.tn/api/v1'
 LOGIN_URL = f'{BASE_URL}/auth/login'
